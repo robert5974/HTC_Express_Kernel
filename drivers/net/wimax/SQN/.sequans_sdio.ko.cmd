@@ -1,0 +1,1 @@
+cmd_drivers/net/wimax/SQN/sequans_sdio.ko := /root/aokp/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-ld -EL -r  -T /root/kernel/express-hc-2.6.35-238a0bf/scripts/module-common.lds --build-id -o drivers/net/wimax/SQN/sequans_sdio.ko drivers/net/wimax/SQN/sequans_sdio.o drivers/net/wimax/SQN/sequans_sdio.mod.o

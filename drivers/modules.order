@@ -1,0 +1,8 @@
+kernel/drivers/scsi/scsi_wait_scan.ko
+kernel/drivers/net/wireless/bcm4329_204/bcm4329.ko
+kernel/drivers/net/wimax/SQN/sequans_sdio.ko
+kernel/drivers/net/wimax/wimaxdbg/wimaxdbg.ko
+kernel/drivers/net/wimax/wimaxuart/wimaxuart.ko
+kernel/drivers/crypto/msm/qcedev.ko
+kernel/drivers/crypto/msm/qce.ko
+kernel/drivers/crypto/msm/qcrypto.ko

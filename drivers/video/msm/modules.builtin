@@ -1,0 +1,4 @@
+kernel/drivers/video/msm/gpu/kgsl_adreno205_hc/msm_kgsl_core.ko
+kernel/drivers/video/msm/gpu/kgsl_adreno205_hc/msm_adreno.ko
+kernel/drivers/video/msm/vidc/vidc_vdec.ko
+kernel/drivers/video/msm/vidc/vidc_venc.ko

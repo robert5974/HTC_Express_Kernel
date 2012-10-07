@@ -1,0 +1,8 @@
+kernel/drivers/i2c/chips/akm8975.ko
+kernel/drivers/i2c/chips/bma250.ko
+kernel/drivers/i2c/chips/a1026.ko
+kernel/drivers/i2c/chips/tpa2051d3.ko
+kernel/drivers/i2c/chips/isl29028.ko
+kernel/drivers/i2c/chips/tps65200.ko
+kernel/drivers/i2c/chips/cap_sense.ko
+kernel/drivers/i2c/chips/cap_sense_express.ko

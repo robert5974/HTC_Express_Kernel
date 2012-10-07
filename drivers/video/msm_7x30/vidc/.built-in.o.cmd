@@ -1,0 +1,1 @@
+cmd_drivers/video/msm_7x30/vidc/built-in.o :=  /root/aokp/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-ld -EL    -r -o drivers/video/msm_7x30/vidc/built-in.o drivers/video/msm_7x30/vidc/vidc.o drivers/video/msm_7x30/vidc/vidc_vdec.o drivers/video/msm_7x30/vidc/vidc_venc.o 

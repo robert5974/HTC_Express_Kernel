@@ -1,0 +1,1 @@
+cmd_drivers/crypto/msm/qce.ko := /root/aokp/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-ld -EL -r  -T /root/kernel/express-hc-2.6.35-238a0bf/scripts/module-common.lds --build-id -o drivers/crypto/msm/qce.ko drivers/crypto/msm/qce.o drivers/crypto/msm/qce.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/video/msm/mhl/sii9232/cbus/built-in.o :=  /root/aokp/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-ld -EL    -r -o drivers/video/msm/mhl/sii9232/cbus/built-in.o drivers/video/msm/mhl/sii9232/cbus/si_api_cbus.o drivers/video/msm/mhl/sii9232/cbus/wake_up_generator.o drivers/video/msm/mhl/sii9232/cbus/si_cp_cbus.o 

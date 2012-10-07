@@ -1,0 +1,1 @@
+cmd_drivers/mfd/built-in.o :=  /root/aokp/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-ld -EL    -r -o drivers/mfd/built-in.o drivers/mfd/marimba-core.o drivers/mfd/mfd-core.o drivers/mfd/timpani-codec.o drivers/mfd/msm-adie-codec.o drivers/mfd/pm8058-core.o 

@@ -1,0 +1,74 @@
+Binary file built-in.o matches
+Binary file video/built-in.o matches
+Binary file video/msm/built-in.o matches
+Binary file video/msm/vidc/vidc_vdec.o matches
+Binary file video/msm/vidc/built-in.o matches
+video/msm/vidc/common/dec/vdec.c:		if (!vid_dec_device_p->vdec_clients[i].vcd_handle) {
+video/msm/vidc/common/dec/vdec.c:		mutex_lock(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c:			mutex_unlock(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c:		mutex_unlock(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c:			&vid_dec_device_p->num_clients, sizeof(u32)))
+video/msm/vidc/common/dec/vdec.c:	mutex_lock(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c:		mutex_unlock(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c:	vid_dec_device_p->num_clients--;
+video/msm/vidc/common/dec/vdec.c:	mutex_unlock(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c:	mutex_lock(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c:		mutex_unlock(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c:	DBG(" Virtual Address of ioremap is %p\n", vid_dec_device_p->virt_base);
+video/msm/vidc/common/dec/vdec.c:	if (!vid_dec_device_p->num_clients) {
+video/msm/vidc/common/dec/vdec.c:	client_ctx = &vid_dec_device_p->vdec_clients[client_index];
+video/msm/vidc/common/dec/vdec.c:	vid_dec_device_p->num_clients++;
+video/msm/vidc/common/dec/vdec.c:	vcd_status = vcd_open(vid_dec_device_p->device_handle, true,
+video/msm/vidc/common/dec/vdec.c:			mutex_unlock(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c:		mutex_unlock(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c:	mutex_unlock(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c:	return vid_dec_device_p->virt_base;
+video/msm/vidc/common/dec/vdec.c:	vid_dec_device_p->num_clients = 0;
+video/msm/vidc/common/dec/vdec.c:		memset((void *)&vid_dec_device_p->vdec_clients[i], 0,
+video/msm/vidc/common/dec/vdec.c:		       sizeof(vid_dec_device_p->vdec_clients[i]));
+video/msm/vidc/common/dec/vdec.c:	mutex_init(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c:	vid_dec_device_p->virt_base = vidc_get_ioaddr();
+video/msm/vidc/common/dec/vdec.c:		(int)vid_dec_device_p->virt_base);
+video/msm/vidc/common/dec/vdec.c:	if (!vid_dec_device_p->virt_base) {
+video/msm/vidc/common/dec/vdec.c:	rc = vcd_init(&vcd_init_config, &vid_dec_device_p->device_handle);
+video/msm/vidc/common/dec/vdec.c:  vid_dec_device_p->device = class_devp;
+video/msm/vidc/common/dec/vdec.c:	cdev_init(&vid_dec_device_p->cdev, &vid_dec_fops);
+video/msm/vidc/common/dec/vdec.c:	vid_dec_device_p->cdev.owner = THIS_MODULE;
+video/msm/vidc/common/dec/vdec.c:	rc = cdev_add(&(vid_dec_device_p->cdev), vid_dec_dev_num, 1);
+video/msm/vidc/common/dec/vdec.c:	cdev_del(&(vid_dec_device_p->cdev));
+video/msm/vidc/common/dec/vdec.c.bak:		if (!vid_dec_device_p->vdec_clients[i].vcd_handle) {
+video/msm/vidc/common/dec/vdec.c.bak:		mutex_lock(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c.bak:			mutex_unlock(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c.bak:		mutex_unlock(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c.bak:			&vid_dec_device_p->num_clients, sizeof(u32)))
+video/msm/vidc/common/dec/vdec.c.bak:	mutex_lock(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c.bak:		mutex_unlock(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c.bak:	vid_dec_device_p->num_clients--;
+video/msm/vidc/common/dec/vdec.c.bak:	mutex_unlock(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c.bak:	mutex_lock(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c.bak:		mutex_unlock(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c.bak:	DBG(" Virtual Address of ioremap is %p\n", vid_dec_device_p->virt_base);
+video/msm/vidc/common/dec/vdec.c.bak:	if (!vid_dec_device_p->num_clients) {
+video/msm/vidc/common/dec/vdec.c.bak:			mutex_unlock(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c.bak:		mutex_unlock(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c.bak:	client_ctx = &vid_dec_device_p->vdec_clients[client_index];
+video/msm/vidc/common/dec/vdec.c.bak:	vid_dec_device_p->num_clients++;
+video/msm/vidc/common/dec/vdec.c.bak:	vcd_status = vcd_open(vid_dec_device_p->device_handle, true,
+video/msm/vidc/common/dec/vdec.c.bak:			mutex_unlock(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c.bak:		mutex_unlock(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c.bak:	mutex_unlock(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c.bak:	return vid_dec_device_p->virt_base;
+video/msm/vidc/common/dec/vdec.c.bak:	vid_dec_device_p->num_clients = 0;
+video/msm/vidc/common/dec/vdec.c.bak:		memset((void *)&vid_dec_device_p->vdec_clients[i], 0,
+video/msm/vidc/common/dec/vdec.c.bak:		       sizeof(vid_dec_device_p->vdec_clients[i]));
+video/msm/vidc/common/dec/vdec.c.bak:	mutex_init(&vid_dec_device_p->lock);
+video/msm/vidc/common/dec/vdec.c.bak:	vid_dec_device_p->virt_base = vidc_get_ioaddr();
+video/msm/vidc/common/dec/vdec.c.bak:		(int)vid_dec_device_p->virt_base);
+video/msm/vidc/common/dec/vdec.c.bak:	if (!vid_dec_device_p->virt_base) {
+video/msm/vidc/common/dec/vdec.c.bak:	rc = vcd_init(&vcd_init_config, &vid_dec_device_p->device_handle);
+video/msm/vidc/common/dec/vdec.c.bak:  vid_dec_device_p->device = class_devp;
+video/msm/vidc/common/dec/vdec.c.bak:	cdev_init(&vid_dec_device_p->cdev, &vid_dec_fops);
+video/msm/vidc/common/dec/vdec.c.bak:	vid_dec_device_p->cdev.owner = THIS_MODULE;
+video/msm/vidc/common/dec/vdec.c.bak:	rc = cdev_add(&(vid_dec_device_p->cdev), vid_dec_dev_num, 1);
+video/msm/vidc/common/dec/vdec.c.bak:	cdev_del(&(vid_dec_device_p->cdev));
+Binary file video/msm/vidc/common/dec/vdec.o matches
